@@ -3051,7 +3051,8 @@ MdPanelPosition.prototype._constrainToViewport = function(panelEl) {
     if (left < margin) {
       this._left = margin + 'px';
     } else if (right > viewportWidth) {
-      this._left = left - (right - viewportWidth + margin) + 'px';
+      // V-CUBE CUSTOM
+      // this._left = left - (right - viewportWidth + margin) + 'px';
     }
   }
 
